@@ -124,7 +124,7 @@ Libraries used:
 • Matplotlib  
 • Seaborn  
 • XGBoost  
-• LightGBM
+• LogisticRegression
 
 ---
 
@@ -148,6 +148,7 @@ Open Jupyter Notebook and run notebooks sequentially.
 ## Author
 
 Suraj Jha
+
 
 
 
