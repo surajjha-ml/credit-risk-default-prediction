@@ -90,6 +90,14 @@ Reason:
 Credit default prediction is an **imbalanced classification problem**, and ROC-AUC measures the model’s ability to distinguish defaulters from non-defaulters across thresholds.
 
 ---
+## Model Performance
+
+| Model | ROC-AUC | Notes |
+|------|------|------|
+| Logistic Regression | 0.78 | Interpretable baseline model used in credit risk |
+| XGBoost | 0.86 | Captures nonlinear relationships and feature interactions |
+
+XGBoost achieved the best ROC-AUC score and was selected as the final model for predicting credit default risk.
 
 ## Dataset
 
@@ -140,6 +148,7 @@ Open Jupyter Notebook and run notebooks sequentially.
 ## Author
 
 Suraj Jha
+
 
 
 
