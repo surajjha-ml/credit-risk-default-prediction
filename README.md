@@ -94,8 +94,8 @@ Credit default prediction is an **imbalanced classification problem**, and ROC-A
 
 | Model | ROC-AUC | Notes |
 |------|------|------|
-| Logistic Regression | 0.78 | Interpretable baseline model used in credit risk |
-| XGBoost | 0.86 | Captures nonlinear relationships and feature interactions |
+| Logistic Regression | 0.748 | Interpretable baseline model used in credit risk |
+| XGBoost | 0.765 | Captures nonlinear relationships and feature interactions |
 
 XGBoost achieved the best ROC-AUC score and was selected as the final model for predicting credit default risk.
 
@@ -148,6 +148,7 @@ Open Jupyter Notebook and run notebooks sequentially.
 ## Author
 
 Suraj Jha
+
 
 
 
